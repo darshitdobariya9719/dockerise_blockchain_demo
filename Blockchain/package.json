@@ -1,0 +1,26 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "node_1": "nodemon start index.js 3001 http://localhost:3001/",
+    "node_2": "nodemon start index.js 3002 http://localhost:3002/",
+    "node_3": "nodemon start index.js 3003 http://localhost:3003/",
+    "node_4": "nodemon start index.js 3004 http://localhost:3004/",
+    "node_5": "nodemon start index.js 3005 http://localhost:3005/",
+    "node_6": "nodemon start index.js 3006 http://localhost:3006/",
+    "node_7": "nodemon start index.js 3007 http://localhost:3007/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15",
+    "request-promise": "^4.2.6",
+    "sha256": "^0.2.0",
+    "uuid": "^8.3.2"
+  }
+}

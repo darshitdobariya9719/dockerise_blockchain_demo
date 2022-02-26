@@ -1,0 +1,10 @@
+services:
+    blockchain:
+        build: 
+            context: ./Blockchain
+            dockerfile: Dockerfile
+        image: darshitdobariya9719/blockchain:1.0.0
+        ports:
+            - "3000-3001"
+        volumes: 
+        - ./Blockchain:/BLOCKCHAIN
